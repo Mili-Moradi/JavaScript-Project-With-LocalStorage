@@ -1,0 +1,146 @@
+/* CSS Datei für Projekt Mili Moradi */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+	background-color: #d9bff0;
+    font-family: Tahoma;
+    display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+header{
+	margin-bottom: 2rem;
+}
+
+#page-banner{
+    background-color: #f0e990 ;
+    color:  #a05fda;
+	padding: 3rem;
+    text-align: center;
+}
+
+.search{
+	width: 50%;
+    margin: 20px auto;
+    display: block;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 1rem;
+    font-size: 16px;
+    color: #444;
+    background-color: white;
+}
+
+main {
+	flex: 1 1 0%;
+	width: 50%;
+	margin: 0 auto;
+}
+
+#add-book {
+	display: flex;
+	margin: 1rem;
+}
+
+#text_input {
+	flex: 1 1 0%;
+	background-color: #f0e990;
+	padding: 1rem;
+	border-radius: 1rem;
+	margin-right: 1rem;
+	color: #444;
+	font-size: 1.25rem;
+}
+
+#submit_input {
+	background: #f0e990;
+    font-size: 1.1rem;
+    display: inline-block;
+	border-radius: 1rem;
+    cursor: pointer;
+    width: 6rem;
+    text-decoration: none;
+    text-align: center;
+    color:  #552381;
+    transition: 0.4s;
+}
+
+#submit_input:hover{
+	color:white;
+	background-color: green;
+}
+
+input, button {
+	appearance: none;
+	border: none;
+	outline: none;
+	background: none;
+} 
+
+.parent li  {
+	cursor: pointer;
+	font-size: 1.2rem;
+	flex: 1 1 0%;
+	background-color:#f0e990;
+	color:black;
+	font-size: 1.2rem;
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between ;
+	border-radius: 1rem;
+	margin-bottom: 1rem;
+	margin: 1rem;
+	transition: 0.4s;
+}
+
+.edit {
+	color: rgb(137, 137, 235);
+	transition: 0.8s;
+	cursor: pointer;
+	font-size: 1.2rem;
+}
+
+.edit:hover{
+	color:rgb(28, 28, 224);
+}
+
+.delete {
+	color: rgb(228, 100, 126);
+	transition: 0.4s;
+	cursor: pointer;
+	font-size: 1.2rem;
+}
+
+.delete:hover{
+	color:rgb(255, 0, 51);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
